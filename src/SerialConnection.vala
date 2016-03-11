@@ -308,13 +308,13 @@ public class moserial.SerialConnection : GLib.Object
 				} 
 				Posix.ioctl(m_fd, Linux.Termios.TIOCMSET, out mcs);               
 		}
-		public void controlCTS(bool y) {
+		public void controlRTS(bool y) {
 			    int mcs=0;
                 Posix.ioctl(m_fd, Linux.Termios.TIOCMGET, out mcs);
                 if (y) {
-					mcs |= Linux.Termios.TIOCM_CTS;
+					mcs |= Linux.Termios.TIOCM_RTS;
 				}else {
-					mcs &= ~ Linux.Termios.TIOCM_CTS;
+					mcs &= ~ Linux.Termios.TIOCM_RTS;
 				} 
 				Posix.ioctl(m_fd, Linux.Termios.TIOCMSET, out mcs);               
 		}

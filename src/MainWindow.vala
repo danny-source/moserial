@@ -324,7 +324,7 @@ public class moserial.MainWindow : Gtk.Window //Have to extend Gtk.Winow to get 
 			label.set_sensitive(false);
 			SerialStatusSignals[5] = label;
 			//public uint add (uint interval, owned SourceFunc function, int priority = DEFAULT)
-             GLib.Timeout.add(500, (GLib.SourceFunc)showSerialStatus, 0);
+             GLib.Timeout.add(200, (GLib.SourceFunc)showSerialStatus, 0);
                 //load and apply preferences
                 currentPreferences = Preferences.loadFromProfile(profile);
        		updatePreferences(null, currentPreferences);
@@ -861,10 +861,10 @@ public class moserial.MainWindow : Gtk.Window //Have to extend Gtk.Winow to get 
 		}
 		if (key.keyval == Gdk.keyval_from_name ("F8")) {
 			bool[] state = serialConnection.getStatus();
-			if (state[3] && serialConnection.isConnected())
-				serialConnection.controlCTS(false);
+			if (state[4] && serialConnection.isConnected())
+				serialConnection.controlRTS(false);
 			else
-				serialConnection.controlCTS(true);
+				serialConnection.controlRTS(true);
 			return true;
 		}		
 
