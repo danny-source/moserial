@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>moserial.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>moserial</name>
+  <name xml:lang="bs">moserial</name>
+  <name xml:lang="ca">moserial</name>
+  <name xml:lang="cs">moserial</name>
+  <name xml:lang="da">moserial</name>
+  <name xml:lang="de">moserial</name>
+  <name xml:lang="el">moserial</name>
+  <name xml:lang="es">moserial</name>
+  <name xml:lang="fr">moserial</name>
+  <name xml:lang="gl">moserial</name>
+  <name xml:lang="hu">moserial</name>
+  <name xml:lang="ja">moserial</name>
+  <name xml:lang="ko">moserial</name>
+  <name xml:lang="nb">moserial</name>
+  <name xml:lang="pl">moserial</name>
+  <name xml:lang="pt">moserial</name>
+  <name xml:lang="pt_BR">moserial</name>
+  <name xml:lang="ro">moserial</name>
+  <name xml:lang="sl">moserial</name>
+  <name xml:lang="sr">мосеријал</name>
+  <name xml:lang="sr@latin">moserijal</name>
+  <name xml:lang="sv">moserial</name>
+  <name xml:lang="zh_CN">moserial</name>
+  <name xml:lang="zh_TW">moserial</name>
+  <summary>Serial terminal</summary>
+  <summary xml:lang="bs">Serijski terminal</summary>
+  <summary xml:lang="cs">Sériový terminál</summary>
+  <summary xml:lang="de">Serielles Terminal</summary>
+  <summary xml:lang="es">Terminal serie</summary>
+  <summary xml:lang="hu">Soros terminál</summary>
+  <summary xml:lang="pl">Terminal szeregowy</summary>
+  <summary xml:lang="pt">Terminal série</summary>
+  <summary xml:lang="sr">Серијски терминал</summary>
+  <summary xml:lang="sr@latin">Serijski terminal</summary>
+  <summary xml:lang="sv">Seriell terminal</summary>
+  <description>
+    <p>Moserial is a serial terminal used for interacting with serial consoles and embedded devices. It supports the view of incoming and outgoing data in both ASCII and hexadecimal formats with the option to log this data. It also supports sending and receiving of x, y, and z-modem files, and has profiles to easily switch between configurations for different devices you are communicating with.</p>
+    <p xml:lang="bs">Moserial je serisjki terminal korišten za interakciju sa serijskim konzolama i ugrađenim uređajima. Podržava prikaz dolaznih i odlaznih podataka u oba ASCII i heksadecimalni format sa mogućnošću da se prijavite na ove podatke.On također podržava slanje i primanje x, y i z - modem datoteke, a ima profile na jednostavno prebacivanje između konfiguracija za različite uređaje s kojima komunicirate.</p>
+    <p xml:lang="cs">Moserial je sériový terminál používaný ke komunikaci se sériovými konzolami a elektronickými zařízeními. Podporuje zobrazení příchozích a odchozích dat jak v ASCII, tak v šestnáctkovém formátu, a tato data může volitelně zaznamenávat. Rovněž podporuje odesílání a příjem souborů pro x, y a z-modem a má profily pro snadné přepínání nastavení pro různá zařízení, se kterými komunikujete.</p>
+    <p xml:lang="de">Moserial ist ein serielles Terminal, das für die Interaktion mit seriellen Konsolen und eingebetteten Geräten verwendet wird. Es unterstützt die Betrachtung eingehenden und ausgehenden Datenverkehrs in sowohl ASCII- als auch im Hexadezimalformat, wobei diese Daten auch protokolliert werden können. Außerdem wird das Senden und Empfangen von x-, y- und z-Modemdateien unterstützt sowie der schnelle Wechsel zwischen mehreren Konfigurationen für die Kommunikation mit unterschiedlichen Geräten.</p>
+    <p xml:lang="es">Moserial es una terminal serie usada para interactuar con consolas serie y dispositivos empotrados. Soporta el ver los datos entrantes y salientes, tanto en hexadecimal como en ASCII, con la posibilidad de registrar estos datos. También soporta enviar y recibir archivos de módez x, y, z, y tiene perfiles para cambiar fácilmente entre configuraciones de diferentes dispositivos con los que se está comunicando.</p>
+    <p xml:lang="hu">A Moserial soros konzolokkal és beágyazott eszközökkel való interakcióhoz használható soros terminál. Támogatja a bejövő és kimenő adatok megtekintését mind ASCII, mind hexadecimális formátumban az adatok naplózásának lehetőségével. Támogatja továbbá az x, y és z-modem fájlok küldését és fogadását, valamint profilokkal rendelkezik, hogy könnyen átválthasson a különféle eszközök beállításai között, amelyekkel kommunikál.</p>
+    <p xml:lang="pl">moserial to terminal szeregowy używany z konsolami szeregowymi i urządzeniami osadzonymi. Obsługuje on wyświetlanie danych przychodzących i wychodzących w formatach ASCII i szesnastkowych, umożliwiając ich zapisywanie. Obsługuje także wysyłanie i odbieranie plików modemów X, Y i Z, oraz posiada profile to łatwego przełączania się między konfiguracjami dla różnych urządzeń.</p>
+    <p xml:lang="pt">O Moserial é um terminal série usada para interação com consolas série e dispositivos embutidos. Suporta a visao de dados de entrada e saída em formatos ASCII e hexadecimal, com a opção de registar estes dados. Também suporta envio e recebimento de ficheiros de modem x, y e z, dispondo de perfis para alternar facilmente entre configurações para diferentes dispositivos com que comunique.</p>
+    <p xml:lang="sr">Мосеријал је серијски терминал који се користи за међудејство са серијским конзолама и уграђеним уређајима. Подржава преглед улазних и излазних података у АСКРИ и хексадецималним форматима са опцијом прибележавања ових података. Такође подржава слање и примање датотека x, y, и z-модема, и садржи профиле за лако пребацивање између подешавања различитих уређаја са којима комуницирате.</p>
+    <p xml:lang="sr@latin">Moserijal je serijski terminal koji se koristi za međudejstvo sa serijskim konzolama i ugrađenim uređajima. Podržava pregled ulaznih i izlaznih podataka u ASKRI i heksadecimalnim formatima sa opcijom pribeležavanja ovih podataka. Takođe podržava slanje i primanje datoteka x, y, i z-modema, i sadrži profile za lako prebacivanje između podešavanja različitih uređaja sa kojima komunicirate.</p>
+    <p xml:lang="sv">Moserial är en seriell terminal använd för att interagera med seriella konsoler och inbäddade enheter. Det stöder vyer för inkommande och utgående data i både ASCII och hexadecimala format med möjligheten att logga denna data. Det stöder också att skicka samt ta emot x-, y- och z-modemfiler samt har profiler för att växla mellan konfigurationer mellan olika enheter du kommunicerar med.</p>
+  </description>
+  <project_group>GNOME</project_group>
+  <url type="homepage">https://wiki.gnome.org/moserial/</url>
+  <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=moserial</url>
+  <url type="donation">http://www.gnome.org/friends/</url>
+  <url type="help">https://help.gnome.org/users/moserial/stable/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://wiki.gnome.org/moserial?action=AttachFile&amp;do=get&amp;target=main.png</image>
+    </screenshot>
+  </screenshots>
+  <translation type="gettext">moserial</translation>
+</component>
