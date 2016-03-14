@@ -62,7 +62,7 @@ public class moserial.MainWindow : Gtk.Window //Have to extend Gtk.Winow to get 
         private ComboBox inputModeCombo;
         private enum inputModeValues { ASCII, HEX }
         private const string[] inputModeStrings = { GLib.N_("ASCII"), GLib.N_("HEX") };
-
+        
         private ComboBox lineEndModeCombo;
 
         private ToggleToolButton connectButton;
